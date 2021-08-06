@@ -65,11 +65,12 @@ body{
     text-align: center;
     margin-top: 5%;
 }
-.input-container h4{
+.input-container h3{
     font-size: small;
-    text-align: center;
+    margin-left: 22%;
     color: grey;
     margin-top: -3%;
+    font-weight: lighter;
 }
 .input-container p{
 margin-left: 10%;
@@ -77,45 +78,47 @@ margin-left: 10%;
 .input-container input{
     margin-left: 9.5%;
     width: 70%;
-    height: 20px;
+    height: 30px;
     border-color: lightgray;
     border-radius: 4px;
 }
 .radio-container{
     position: absolute;
     margin-left: 64%;
-    margin-top: -18.7%;
+    margin-top: -16%;
 }
 .radio-container button{
     color: white;
     background-color:rgba(120, 43, 226, 0.651);
-    margin-left: 85%;
-    margin-top: 35%;
+    margin-left: 76%;
+    margin-top: 20%;
     border: none;
     height: 30px;
-    width: 120%;
+    width: 140%;
     border-radius: 5px;
 }
 .input-maincontainer{
     margin-top: -3%;
 }
 .line{
-    border:2px solid black;
-    height: 1.3px;
-    width: 9px;
-    border-radius: 43%;
+    height: 8px;
+    width: 17px;
+    border-radius: 5px;
     background-color: black;
   margin-left: 35.5%;
   margin-top: -11%;
 }
 .circle{
-    border:2px solid white;
-    height: 0.5px;
+    /* height: 0.5px;
     width: 4px;
-    border-radius: 50%;
+    border-radius: 50%; */
+    height: 8px;
+    width: 17px;
+    border-radius: 5px;
     background-color: white;
+    clip-path: circle();
   margin-left: 36.7%;
-  margin-top: -0.35%;
+  margin-top: -0.55%;
 }
 
 /* .radio-container input:after {
@@ -171,35 +174,32 @@ margin-left: 10%;
         border-radius: 5px;
     }
     .line{
-        border:2px solid black;
-        height: 11px;
-        width: 22px;
-        border-radius: 40%;
+        height: 8px;
+        width: 17px;
+        border-radius: 5px;
         background-color: black;
       margin-left: 100%;
       margin-top: -285%;
     }
     .circle{
-        border:2px solid white;
-        height: 7px;
-        width: 9px;
-        border-radius: 50%;
-        background-color: white;
-      margin-left: 112%;
-      margin-top: -4.1%;
+        height: 8px;
+    width: 17px;
+    border-radius: 5px;
+    background-color: white;
+    clip-path: circle();
+      margin-left: 108%;
+      margin-top: -2.5%;
     }
     .input-container h1{
         text-align: center;
         margin-top: 5%;
         font-size:320%;
     }
-    .input-container h4{
-        font-size: small;
-        text-align: center;
+    .input-container h3{
         color: grey;
-        font-size: 113%;
-        font-size:20px; 
+        font-size: 130%;
         margin-top: -3%;
+        font-weight: lighter;
         /* visibility: hidden; */
     }
     .input-container p{
@@ -234,7 +234,7 @@ margin-left: 10%;
     .img-container {
         position: relative;
         background-image: url("desktop.png"); 
-        /* height:0; */
+        /* height:20em; */
         width: fit-content; 
         /* background-size: cover; */
         /* width: 50em;
